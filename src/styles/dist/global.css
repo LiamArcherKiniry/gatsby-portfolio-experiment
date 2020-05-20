@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 html {
   font-size: 12px;
@@ -159,7 +159,7 @@ body.dark {
 
 /* System Fonts as used by Medium and WordPress */
 body {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   border-top: 10px solid var(--primary-color);
   background-color: var(--background);
   color: var(--text-color);
@@ -179,8 +179,7 @@ a:hover {
 }
 
 .site-wrapper {
-  padding: 32px;
-  max-width: 1140px;
+  padding: 0px 3rem;
   margin: 0 auto;
 }
 
@@ -198,6 +197,7 @@ a:hover {
   text-decoration: none;
   margin: 0 8px 0;
   font-weight: 300;
+  font-size: 16px;
   background: var(--primary-color);
   padding: 10px 20px;
   border-radius: 9px;
@@ -221,12 +221,11 @@ a:hover {
 .site-header {
   display: flex;
   justify-content: space-between;
-  padding: 20px 100px;
+  padding: 20px 0px;
   /* background: var(--site-header); */
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
   align-items: center;
   z-index: 999;
-  position: absolute;
   right: 0px;
 }
 
@@ -424,7 +423,7 @@ a:hover {
 
 .inner {
   width: 100%;
-  height: 91vh;
+  height: 90vh;
   background: transparent;
   display: flex;
   text-align: center;
@@ -464,9 +463,9 @@ a:hover {
 .prod-left {
   width: 55%;
   text-align: left;
-  padding-left: 5rem;
+  /* padding-left: 5rem; */
   height: 100vh;
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 
 .prod-hcontent {
@@ -489,7 +488,7 @@ a:hover {
   color: var(--clr-light);
   text-shadow: 3px 3px 0 var(--textcolor), -1px -1px 0 var(--textcolor), 1px -1px 0 var(--textcolor), -1px 1px 0 var(--textcolor), 1px 1px 0 var(--textcolor);
   margin: 0;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   vertical-align: middle;
 }
@@ -542,7 +541,7 @@ a:hover {
   font-size: var(--s1);
   letter-spacing: -.04em;
   line-height: 1.2;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   text-align: center;
 }
 
@@ -635,7 +634,7 @@ a:hover {
   width: calc(100% - 24px);
   margin-bottom: 1.5rem;
   background-color: var(--input-bg);
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 .form-container textarea {
@@ -790,4 +789,82 @@ body.light .gg-sun {
 
 .about p {
   color: #22267A;
+}
+
+.main-img-hold {
+  position: absolute;
+  width: 35%;
+  z-index: 3;
+}
+
+.main-img-hold img {
+  max-width: 400px;
+}
+
+@media (max-width: 61.99875em) {
+  .head-works {
+    padding-top: 10rem;
+  }
+  .c-services {
+    padding-top: 2rem;
+  }
+  .inner .prod-left {
+    width: 100%;
+    height: 50vh;
+    top: 0px;
+    position: absolute;
+  }
+  .inner .prod-right {
+    width: 100%;
+    /* height: 50vh; */
+  }
+  .main-img-hold {
+    width: 60%;
+    /* bottom: 0px; */
+    right: 0px;
+  }
+  .about .prod-left {
+    width: 100%;
+  }
+  .about {
+    background-size: 120%;
+  }
+}
+
+@media (max-width: 420px) {
+  footer {
+    display: grid;
+    grid-gap: 0;
+    padding: var(--s3) var(--s3);
+    position: relative;
+    z-index: 1;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(0px, 1fr);
+  }
+  .footer-title {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .footer-img {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    margin-left: 10em;
+  }
+  .social-links {
+    grid-row: 2;
+    grid-column-end: 2;
+  }
+  .prod-left {
+    width: 55%;
+    text-align: left;
+    padding-left: 2rem;
+    height: 100vh;
+    margin-top: 8rem;
+  }
+  #blowup {
+    width: 200px;
+    align-self: center;
+    justify-self: center;
+    margin-left: -4em;
+  }
 }

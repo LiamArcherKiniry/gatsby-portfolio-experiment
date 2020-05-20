@@ -34,6 +34,29 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Nunito`,
+            variants: [`300`, `700`, `900`, `400`]
+          },
+          {
+            family: `Nunito`,
+            subsets: [`latin`]
+          },
+          {
+            family: `Roboto`,
+            variants: [`400`, `500`, `700`]
+          },
+          {
+            family: `Roboto`,
+            subsets: [`latin`]
+          },
+        ],
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it. replace with yours

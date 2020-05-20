@@ -3,10 +3,22 @@
 $font-family: 'Nunito Sans', sans-serif;
 $body-text: 'Roboto', sans-serif;
 
-html,
-body {
-  margin: 0;
-  padding: 0;
+html {
+  font-size: 12px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: relative;
+}
+body{
+  font-size: 12px;
+	margin:0;
+	padding:0;
+  width: 100%;
+	background: var(--main-bg-color);
+	font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
 }
 * {
   margin-top: 0
@@ -162,6 +174,9 @@ body {
   background-color: var(--background);
   color: var(--text-color);
 }
+p{
+  font-size: 16px;
+}
 a {
   color: var(--primary-color);
   text-decoration: none;
@@ -207,6 +222,7 @@ a {
     }
   }
 }
+
 .site-header {
   display: flex;
   justify-content: space-between;
@@ -418,7 +434,7 @@ a {
 	margin:0px auto;
 	border-radius:3px;
 	padding:5px;
-	transition:background 0.3s linear;
+	transition: background 0.3s linear;
 }
 #blowup{
     width: 300px;
@@ -782,4 +798,22 @@ body.light {
 }
 .shapeshifter.play {
   animation-name: play15;
+}
+
+.about{
+  width:100%;
+background:transparent;
+display:flex;
+text-align:center;
+align-items:center;
+
+/*background-image: url(./assets/working.svg);*/
+background-repeat: no-repeat;
+background-position: bottom;
+padding-bottom: 3rem;
+
+}
+.about p{
+color: #22267A;
+
 }

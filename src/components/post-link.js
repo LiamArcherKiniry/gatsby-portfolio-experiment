@@ -38,7 +38,7 @@ class Postlink extends Component {
       <div className="c-services__item_inner">
           <div title={this.props.post.frontmatter.title + "- illustrated icon"} id={this.props.post.frontmatter.path + "-anim"} className="shapeshifter" style={ this.sectionStyle }></div>
           <h3>{this.props.post.frontmatter.title}</h3>
-          <p>{this.props.post.frontmatter.description}</p>
+          <p>{"Description: " + this.props.post.frontmatter.metaDescription + ""}</p>
               <Link to={this.props.post.frontmatter.path} className="after">
                 
               </Link>

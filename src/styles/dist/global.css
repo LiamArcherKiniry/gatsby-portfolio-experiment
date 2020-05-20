@@ -543,6 +543,7 @@ a:hover {
   letter-spacing: -.04em;
   line-height: 1.2;
   font-family: "Nunito Sans", sans-serif;
+  text-align: center;
 }
 
 .c-services__item p {

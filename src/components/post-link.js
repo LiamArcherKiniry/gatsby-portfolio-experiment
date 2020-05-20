@@ -7,7 +7,7 @@ import { Link } from "gatsby"
     <div className="c-services__item_inner">
         <div title={post.frontmatter.title + "- illustrated icon"} id={post.frontmatter.path + "-anim"} className="shapeshifter" ></div>
         <h3>{post.frontmatter.title}</h3>
-        <p>{post.frontmatter.description}</p>
+        <p>{post.frontmatter.metaDescription}</p>
             <Link to={post.frontmatter.path} className="after">
               
             </Link>

@@ -210,10 +210,13 @@ a {
 .site-header {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
-  background: var(--site-header);
+  padding: 20px 100px;
+  /* background: var(--site-header); */
   margin-bottom: 32px;
   align-items: center;
+  z-index: 999;
+  position: absolute;
+  right: 0px;
 }
 .site-title a {
   color: var(--primary-color);

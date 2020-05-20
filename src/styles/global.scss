@@ -195,21 +195,18 @@ a {
 .navigation {
   display: flex;
   align-items: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
 
   a {
-    color: var(--primary-text-color);
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
     text-decoration: none;
-    margin: 0 8px 0;
-    font-weight: 300;
-    font-size: 16px;
-    background: var( --primary-color);
-    padding: 10px 20px;
-   
-    border-radius: 9px;
-  
-    font-weight: 400;
-   
-    transition: background-color .3s linear;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--textcolor);
 
     &[aria-current] {
       color: var(--primary-color);
@@ -220,6 +217,16 @@ a {
     }
     &:last-child {
       margin-right: 0;
+      background: var(--textcolor);
+      color: #B19217;
+      padding: 10px;
+      border-radius: 5px;
+
+      &:hover{
+        color: var(--textcolor);
+        background: #B19217;
+        transition: all .5s ease;
+      }
     }
   }
 }
@@ -448,7 +455,7 @@ a {
 	text-align:left;
 	/* padding-left: 5rem; */
     height: 100vh;
-    margin-top: 4rem;
+    margin-top: 5rem;
   
    
 
@@ -830,9 +837,37 @@ color: #22267A;
   }
 }
 
+.head-works{
+    
+    
+    
+  font-size: var(--sa);
+  
+  color: var(--clr-light);
+
+  
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  vertical-align: middle;
+
+  z-index: 4;
+ 
+  margin-top: -10rem;
+  padding-left: 5rem;
+   text-shadow:
+     3px 3px 0 var(--textcolor),
+   -1px -1px 0 var(--textcolor),  
+    1px -1px 0 var(--textcolor),
+    -1px 1px 0 var(--textcolor),
+     1px 1px 0 var(--textcolor);
+  
+  
+}
+
 @media (max-width: 61.99875em) {
   .head-works{
-      padding-top: 10rem;
+    margin-top: 10rem;
       
   }
   .c-services{
@@ -850,7 +885,7 @@ color: #22267A;
       
   }
   .main-img-hold{
-      width: 60%;
+      width: 85%;
       /* bottom: 0px; */
       right: 0px; 
       

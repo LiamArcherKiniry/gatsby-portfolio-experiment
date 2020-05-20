@@ -494,6 +494,7 @@ a:hover {
 
 .prod-head {
   margin-left: -5px !important;
+  text-transform: uppercase;
   font-size: var(--sa);
   color: var(--clr-light);
   text-shadow: 3px 3px 0 var(--textcolor), -1px -1px 0 var(--textcolor), 1px -1px 0 var(--textcolor), -1px 1px 0 var(--textcolor), 1px 1px 0 var(--textcolor);
@@ -809,6 +810,7 @@ body.light .gg-sun {
 
 .main-img-hold img {
   max-width: 400px;
+  max-height: 300px;
 }
 
 .head-works {
@@ -820,13 +822,12 @@ body.light .gg-sun {
   vertical-align: middle;
   z-index: 4;
   margin-top: -10rem;
-  padding-left: 5rem;
   text-shadow: 3px 3px 0 var(--textcolor), -1px -1px 0 var(--textcolor), 1px -1px 0 var(--textcolor), -1px 1px 0 var(--textcolor), 1px 1px 0 var(--textcolor);
 }
 
 @media (max-width: 61.99875em) {
   .head-works {
-    margin-top: 10rem;
+    margin-top: 4rem;
   }
   .c-services {
     padding-top: 2rem;

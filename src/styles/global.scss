@@ -511,7 +511,14 @@ a {
     color: var(--textcolor);
     margin: 0 auto;
     letter-spacing: 0.3rem;
-    
+  span{
+    font-weight: bold;
+    font-size: var(--s1);
+    color: var(--textcolor);
+    margin: 0 auto;
+    letter-spacing: 0.3rem;
+    font-family: $body-text;
+  }
 }
 .prod-logo:hover .prod-img
 {

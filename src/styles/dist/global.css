@@ -518,6 +518,15 @@ a:hover {
   letter-spacing: 0.3rem;
 }
 
+.prod-head-sub span {
+  font-weight: bold;
+  font-size: var(--s1);
+  color: var(--textcolor);
+  margin: 0 auto;
+  letter-spacing: 0.3rem;
+  font-family: "Roboto", sans-serif;
+}
+
 .prod-logo:hover .prod-img {
   background: #fff;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.09), 0 3px 2px -2px rgba(0, 0, 0, 0.07), 0 1px 5px 0 rgba(0, 0, 0, 0.08);

@@ -189,10 +189,14 @@ a:hover {
 
 .navigation {
   display: flex;
+  position: absolute;
   align-items: center;
   font-family: 'Nunito', sans-serif;
   font-size: 1.25rem;
   font-weight: bold;
+  align-self: flex-end;
+  right: 0px;
+  top: 20px;
 }
 
 .navigation a {
@@ -237,6 +241,8 @@ a:hover {
   align-items: center;
   z-index: 999;
   right: 0px;
+  position: right;
+  position: relative;
 }
 
 .site-title a {

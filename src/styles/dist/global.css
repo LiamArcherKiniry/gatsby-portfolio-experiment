@@ -792,7 +792,8 @@ body.light .gg-sun {
   display: flex;
   text-align: center;
   align-items: center;
-  /*background-image: url(./assets/working.svg);*/
+  /* 
+background-image: url(./assets/working.svg); */
   background-repeat: no-repeat;
   background-position: bottom;
   padding-bottom: 3rem;

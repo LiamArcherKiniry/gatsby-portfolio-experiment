@@ -11,6 +11,8 @@ module.exports = {
   plugins: [{
     resolve: "gatsby-plugin-transition-link"
   }, {
+    resolve: "gatsby-plugin-scroll-reveal"
+  }, {
     resolve: "gatsby-source-filesystem",
     options: {
       name: "markdown-pages",

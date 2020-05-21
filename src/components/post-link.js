@@ -34,7 +34,10 @@ class Postlink extends Component {
 
   render() {
     return(
-      <article id={this.props.post.frontmatter.title} className="c-services__item">
+      <article data-sal="slide-up"
+      data-sal-delay="300"
+      data-sal-easing="ease" 
+      id={this.props.post.frontmatter.title} className="c-services__item">
       <div className="c-services__item_inner">
           <div title={this.props.post.frontmatter.title + "- illustrated icon"} id={this.props.post.frontmatter.path + "-anim"} className="shapeshifter" style={ this.sectionStyle }></div>
           <h3>{this.props.post.frontmatter.title}</h3>

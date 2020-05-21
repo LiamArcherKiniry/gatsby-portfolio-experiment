@@ -14,6 +14,7 @@ export default () => (
         }
       }
     `}
+
     render={data => (/* 
       <div className="hero-header">
         <div className="headline">{data.site.siteMetadata.home.title}</div>
@@ -22,12 +23,18 @@ export default () => (
           dangerouslySetInnerHTML={{ __html: data.site.siteMetadata.home.description}}
         />
         <Link to='/contact' className="button -primary">Get in touch &rarr;</Link>
-      </div> */
+      </div> 
+      <h4 className="prod-head-sub">{data.site.siteMetadata.home.description}</h4>
+      */
+     
       <div className="inner">
         <div className="prod-left">
                 <div className="prod-hcontent">
                   <h1 className="prod-head">{data.site.siteMetadata.home.title}</h1>
-                  <h4 className="prod-head-sub">{data.site.siteMetadata.home.description}</h4>
+                  <h4 className="prod-head-sub">{data.site.siteMetadata.home.description.split('\n').map((item, key) => {
+                      return <span key={key}>{item}<br/></span>
+                    })}
+                  </h4>
                   <Link to='/contact' className="button -primary">Get in touch &rarr;</Link>
                 </div>
         </div>

@@ -9,6 +9,8 @@ module.exports = {
   /* Your site config here */
   siteMetadata: require("./site-meta-data.json"),
   plugins: [{
+    resolve: "gatsby-plugin-transition-link"
+  }, {
     resolve: "gatsby-source-filesystem",
     options: {
       name: "markdown-pages",

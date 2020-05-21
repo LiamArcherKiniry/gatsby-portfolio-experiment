@@ -1,11 +1,18 @@
 import React from "react"
-import {Link} from "gatsby"
+
+
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 
 export default (props) => (
   <nav className="navigation"> 
-    <Link to="/">Home</Link>
-    <Link to="/contact">Contact</Link>
+    <AniLink swipe to="/" direction="right" >
+      Home
+    </AniLink>
+   
+    <AniLink paintDrip to="/contact" hex="#22267A">
+      Contact
+    </AniLink>
    
   </nav>
   

@@ -210,7 +210,7 @@ a:hover {
 }
 
 .navigation a[aria-current] {
-  color: var(--primary-color);
+  color: var(--textcolor);
   font-weight: 700;
 }
 
@@ -339,7 +339,7 @@ a:hover {
   background-position: center;
   border-radius: 18px;
   margin-bottom: 36px;
-  color: var(--featured-text);
+  color: var(--textcolor);
   display: grid;
   align-content: center;
   position: relative;
@@ -349,13 +349,14 @@ a:hover {
 
 .post-thumbnail:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
+  border: solid 2px var(--textcolor);
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 98%;
+  height: 98%;
   z-index: 1;
+  border-radius: 18px;
 }
 
 .post-thumbnail > * {
@@ -644,7 +645,9 @@ a:hover {
 .form-container label {
   display: block;
   margin-bottom: 0.5rem;
-  color: var(--text-secondary-color);
+  color: var(--textcolor);
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .form-container input[type=text],
@@ -670,6 +673,10 @@ a:hover {
 .two-grids {
   display: grid;
   grid-gap: 32px;
+}
+
+.two-grids.-contact {
+  margin-top: 3rem;
 }
 
 .two-grids.-contact .post-thumbnail {
@@ -906,4 +913,262 @@ background-image: url(./assets/working.svg); */
     justify-self: center;
     margin-left: -4em;
   }
+}
+
+/*svg styles*/
+#blowup .cls-1 {
+  fill: #22267a;
+}
+
+#blowup .cls-2 {
+  fill: #eae4dd;
+}
+
+#blowup .cls-2, .cls-3, .cls-5 {
+  stroke: #22267a;
+  stroke-miterlimit: 10;
+}
+
+#blowup .cls-2, .cls-3 {
+  stroke-width: 2px;
+}
+
+#blowup .cls-3, .cls-5 {
+  fill: none;
+}
+
+#blowup .cls-4 {
+  fill: #ed1c24;
+}
+
+#blowup .cls-5 {
+  stroke-width: 3px;
+}
+
+#blowup .phone {
+  fill: #22267A;
+}
+
+#blowup .hair {
+  fill: #22267A;
+}
+
+#Hand {
+  fill: #EAE4DD;
+}
+
+#blowup .cls-4 {
+  fill: #ed1c24;
+}
+
+#blowup .cls-6 {
+  fill: #3841AF;
+}
+
+#expressionCalm {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-delay: 0.8s;
+}
+
+#expressionShook {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-delay: 0.8s;
+}
+
+#message1 {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.1s;
+  transition-delay: 0.2s;
+}
+
+#message2 {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.1s;
+  transition-delay: 0.3s;
+}
+
+#message3 {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.1s;
+  transition-delay: 0.4s;
+}
+
+#message4 {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.1s;
+  transition-delay: 0.5s;
+}
+
+#message5 {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.1s;
+  transition-delay: 0.6s;
+}
+
+#exclamation {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.1s;
+  transition-delay: 0.7s;
+}
+
+#blowup:hover #expressionShook {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-delay: 0.8s;
+}
+
+#blowup:hover #expressionCalm {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-delay: 0.8s;
+}
+
+#blowup:hover #message1 {
+  opacity: 1;
+}
+
+#blowup:hover #message2 {
+  opacity: 1;
+}
+
+#blowup:hover #message3 {
+  opacity: 1;
+}
+
+#blowup:hover #message4 {
+  opacity: 1;
+}
+
+#blowup:hover #message5 {
+  opacity: 1;
+}
+
+#blowup:hover #exclamation {
+  opacity: 1;
+}
+
+#blowup:hover #expressionShook {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-delay: 0.8s;
+}
+
+#blowup:hover #expressionCalm {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-delay: 0.8s;
+}
+
+#blowup:hover #message1 {
+  opacity: 1;
+}
+
+#blowup:hover #message2 {
+  opacity: 1;
+}
+
+#blowup:hover #message3 {
+  opacity: 1;
+}
+
+#blowup:hover #message4 {
+  opacity: 1;
+}
+
+#blowup:hover #message5 {
+  opacity: 1;
+}
+
+#blowup:hover #exclamation {
+  opacity: 1;
+}
+
+#blowup:hover #expressionShook {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-delay: 0.8s;
+}
+
+#blowup:hover #expressionCalm {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-delay: 0.8s;
+}
+
+#blowup:hover #message1 {
+  opacity: 1;
+}
+
+#blowup:hover #message2 {
+  opacity: 1;
+}
+
+#blowup:hover #message3 {
+  opacity: 1;
+}
+
+#blowup:hover #message4 {
+  opacity: 1;
+}
+
+#blowup:hover #message5 {
+  opacity: 1;
+}
+
+#blowup:hover #exclamation {
+  opacity: 1;
+}
+
+#blowup:active #expressionShook {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-delay: 0.8s;
+}
+
+#blowup:active #expressionCalm {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-delay: 0.8s;
+}
+
+#blowup:active #message1 {
+  opacity: 1;
+}
+
+#blowup:active #message2 {
+  opacity: 1;
+}
+
+#blowup:active #message3 {
+  opacity: 1;
+}
+
+#blowup:active #message4 {
+  opacity: 1;
+}
+
+#blowup:active #message5 {
+  opacity: 1;
+}
+
+#blowup:active #exclamation {
+  opacity: 1;
 }

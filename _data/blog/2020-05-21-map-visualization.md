@@ -9,6 +9,8 @@ metaDescription: >-
   users to filtered explore the landscape of the data.
 thumbnail: /assets/map_30fps.svg
 ---
+![a preview of the mapping program showing a set of data visualized](/assets/preview.png "A Preview of the Product")
+
 ### Project Type:WebDev, UI Design, UX Design
 
 ### Date:July 10-17, 2019

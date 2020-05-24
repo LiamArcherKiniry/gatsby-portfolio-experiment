@@ -2,7 +2,7 @@
 template: BlogPost
 path: /muster
 date: 2020-02-20T15:05:49.332Z
-title: Post with Youtube Video embed
+title: Muster Mobile App
 metaDescription: >-
   Muster is a mobile based platform which enables the users with different
   abilities to connect and have a seamless conversation. The design is aimed at

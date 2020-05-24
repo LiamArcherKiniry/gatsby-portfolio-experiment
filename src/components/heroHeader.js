@@ -35,7 +35,7 @@ export default () => (
                       return <span key={key}>{item}<br/></span>
                     })}
                   </h4>
-                  <Link to='/contact' className="button -primary">Get in touch &rarr;</Link>
+                  
                 </div>
         </div>
         <div className="prod-right">

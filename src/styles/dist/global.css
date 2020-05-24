@@ -507,6 +507,7 @@ h3 {
 
 .prod-right {
   width: 45%;
+  margin-top: 20rem;
 }
 
 .prod-human-img {
@@ -840,8 +841,9 @@ background-image: url(./assets/working.svg); */
 }
 
 .main-img-hold {
-  position: absolute;
-  width: 35%;
+  /*  position: absolute;
+
+  width: 35%; */
   z-index: 3;
 }
 

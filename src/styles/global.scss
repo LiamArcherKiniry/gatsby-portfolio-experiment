@@ -492,7 +492,8 @@ h3{
 }
 .prod-right
 {
-	width:45%;
+  width:45%;
+  margin-top: 20rem;
 }
 .prod-human-img
 {
@@ -863,9 +864,9 @@ color: #22267A;
 }
 
 .main-img-hold{
-  position: absolute;
+ /*  position: absolute;
 
-  width: 35%;
+  width: 35%; */
   z-index: 3;
   img{
     max-width: 400px;

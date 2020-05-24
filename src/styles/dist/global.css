@@ -517,7 +517,7 @@ h3 {
 
 .prod-head {
   margin-left: -5px !important;
-  font-size: var(--sa);
+  font-size: var(--s5);
   color: var(--clr-light);
   text-shadow: 3px 3px 0 var(--textcolor), -1px -1px 0 var(--textcolor), 1px -1px 0 var(--textcolor), -1px 1px 0 var(--textcolor), 1px 1px 0 var(--textcolor);
   margin: 0;
@@ -864,7 +864,7 @@ background-image: url(./assets/working.svg); */
   text-shadow: 3px 3px 0 var(--textcolor), -1px -1px 0 var(--textcolor), 1px -1px 0 var(--textcolor), -1px 1px 0 var(--textcolor), 1px 1px 0 var(--textcolor);
 }
 
-@media (max-width: 61.99875em) {
+@media (max-width: 31.99875em) {
   .head-works {
     margin-top: 4rem;
   }

@@ -191,6 +191,10 @@ h3 {
   color: var(--textcolor);
 }
 
+h2 {
+  color: var(--textcolor);
+}
+
 .navigation {
   display: flex;
   position: absolute;
@@ -853,7 +857,7 @@ background-image: url(./assets/working.svg); */
 }
 
 .head-works {
-  font-size: var(--sa);
+  font-size: var(--s5);
   color: var(--clr-light);
   margin: 0;
   font-family: 'Nunito', sans-serif;

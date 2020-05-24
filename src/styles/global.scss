@@ -184,6 +184,7 @@ a {
     text-decoration: underline;
   }
 }
+
 .site-wrapper {
   padding: 0px 3rem;
   
@@ -193,6 +194,9 @@ a {
   }
 }
 h3{
+  color: var(--textcolor);
+}
+h2{
   color: var(--textcolor);
 }
 .navigation {
@@ -878,7 +882,7 @@ color: #22267A;
     
     
     
-  font-size: var(--sa);
+  font-size: var(--s5);
   
   color: var(--clr-light);
 

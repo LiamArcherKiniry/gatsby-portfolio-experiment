@@ -17,7 +17,7 @@ thumbnail: /assets/collab_30fps.svg
 
 #### Technologies:Javascript, PHP, CSS, HTML
 
-Our team designed and created an interactive installation that encouraged people come together and build a story. This project was part of the Transnational Workshop: Digital Creation Beyond the Screen. I was involved in the ideation, design, and back-end of the final product.
+Our team designed and created an interactive installation that encouraged people come together and build a story. This project was part of the Transnational Workshop: Digital Creation Beyond the Screen. I was involved in the ideation, design, and development of the final product.
 
 ## The Challenge
 
@@ -98,8 +98,6 @@ A playthrough of the final Prototype can be seen here these show the how users w
 We installed our project in Tour Montparnasse and invited people to come and play with it.
 
 ![a GIF of people playing with the design](https://liamkiniry.site/assets/images/parisproject/showcase2.gif "a GIF of people playing with the design")
-
-
 
 > \
 > "It was successful"

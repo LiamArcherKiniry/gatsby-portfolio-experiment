@@ -930,6 +930,14 @@ background-image: url(./assets/working.svg); */
     justify-self: center;
     margin-left: -4em;
   }
+  .prod-hcontent {
+    top: 0;
+    text-align: left;
+    margin-left: -4rem;
+  }
+  .prod-head {
+    font-size: var(--s4);
+  }
 }
 
 /*svg styles*/

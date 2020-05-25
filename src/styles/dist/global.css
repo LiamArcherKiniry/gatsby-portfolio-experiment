@@ -911,7 +911,6 @@ background-image: url(./assets/working.svg); */
 
 @media (max-width: 500px) {
   footer {
-    display: grid;
     grid-gap: 0;
     padding: var(--s3) var(--s3);
     position: relative;

@@ -9,6 +9,8 @@ metaDescription: >-
   with designers, developers, and writers from Paris Université 8 and RIT.
 thumbnail: /assets/collab_30fps.svg
 ---
+![A set of playing cards from the UI of the installation featuring characters, colors, and places that make up the story](/assets/cards.png)
+
 ## Interactive Storytelling Installation
 
 ### Project Type:Installation, WebDev, UI Design, UX Design

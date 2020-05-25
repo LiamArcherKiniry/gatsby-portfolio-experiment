@@ -170,7 +170,7 @@ p {
 }
 
 a {
-  color: var(--primary-color);
+  color: var(--textcolor);
   text-decoration: none;
 }
 
@@ -185,6 +185,7 @@ a:hover {
 
 .site-wrapper img {
   max-width: 100%;
+  background-color: var(--textcolor);
 }
 
 h3 {

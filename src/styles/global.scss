@@ -178,7 +178,7 @@ p{
   font-size: 16px;
 }
 a {
-  color: var(--primary-color);
+  color: var(--textcolor);
   text-decoration: none;
   &:hover {
     text-decoration: underline;
@@ -191,6 +191,7 @@ a {
   margin: 0 auto;
   img {
     max-width: 100%;
+    background-color: var(--textcolor);
   }
 }
 h3{

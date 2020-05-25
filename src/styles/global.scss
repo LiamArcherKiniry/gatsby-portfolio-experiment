@@ -191,7 +191,7 @@ a {
   margin: 0 auto;
   img {
     max-width: 100%;
-    background-color: var(--textcolor);
+    
   }
 }
 h3{
@@ -342,6 +342,7 @@ h2{
   }
   img {
     border-radius: 9px;
+    background-color: var(--textcolor);
   }
   
 }

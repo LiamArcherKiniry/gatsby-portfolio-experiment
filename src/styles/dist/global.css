@@ -185,7 +185,6 @@ a:hover {
 
 .site-wrapper img {
   max-width: 100%;
-  background-color: var(--textcolor);
 }
 
 h3 {
@@ -351,6 +350,7 @@ h2 {
 
 .post img {
   border-radius: 9px;
+  background-color: var(--textcolor);
 }
 
 .post-thumbnail {

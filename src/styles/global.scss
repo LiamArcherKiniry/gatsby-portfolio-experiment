@@ -743,6 +743,10 @@ and (min-width: 768px) {
     grid-template-columns: 1fr 1fr;
     grid-gap: 64px;
   }
+  .about{
+    background-size: 150%;
+    background-position-x: center;
+  }
 }
 
 

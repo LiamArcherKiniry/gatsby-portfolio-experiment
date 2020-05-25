@@ -743,10 +743,7 @@ and (min-width: 768px) {
     grid-template-columns: 1fr 1fr;
     grid-gap: 64px;
   }
-  .about{
-    background-size: 150%;
-    background-position-x: center;
-  }
+  
 }
 
 
@@ -919,6 +916,12 @@ color: #22267A;
      1px 1px 0 var(--textcolor);
   
   
+}
+@media (max-width: 1024px){
+  .about{
+    background-size: 150%;
+    background-position-x: center;
+  }
 }
 
 @media (max-width: 31.99875em) {

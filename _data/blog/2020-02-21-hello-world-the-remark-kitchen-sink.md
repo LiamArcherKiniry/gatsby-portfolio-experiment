@@ -7,7 +7,7 @@ metaDescription: >-
   Goody is a chatbot I created as a fun side project. It's meant to talk like a
   witch. I wanted to develop and deploy a webapp and make something fun in the
   process.
-thumbnail: /assets/goody.png
+thumbnail: /assets/crystal_30fps.svg
 ---
 ![A depiction of goody's chat ui](https://liamkiniry.site/assets/images/goody/goody.png)
 

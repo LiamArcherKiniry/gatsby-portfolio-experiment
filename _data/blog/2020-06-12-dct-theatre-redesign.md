@@ -3,6 +3,12 @@ template: BlogPost
 path: /DCT
 date: 2020-06-12T00:05:40.054Z
 title: DCT Theatre Redesign
+metaDescription: >-
+  In this project, I worked with a team UX designers and developers to redesign
+  the branding and website of a local theatre organization. We sought to
+  organize the information architecture of the site, revamp the user experience
+  of buying tickets and getting information, and improve the likelihood of
+  donations by focusing on calls to action.
 ---
 ![A preview of the site's landing page showing the page title and the menu](/assets/sitepreview.png "site preview")
 
@@ -10,7 +16,7 @@ title: DCT Theatre Redesign
 
 ### Project Type:UI Design, UX Design, Information Design, Web Development
 
-### Date:Jan-May 2020
+### Date:Jan-Mar 2020
 
 ### Technologies: Figma, HTML, CSS, JavaScript, PHP, Illustrator
 
@@ -32,53 +38,35 @@ Our main goals were
 
 ![This shows a screen shot of the existing site dominated by a large image carousel and a deep menu with lots of options](/assets/DCT-originalSite.png "existing site")
 
+## Understanding the Site
+
+### Site Structure
+
+In order to better understand the content and structure of the site we conducted a card sort so that potential users could categorize the site's content in an intuitive way. The results of the card sort on the site's content were used to create a new site map and organize the project.
+
+### Old Site Map
+
+![An image of the sites old site map organized as a flow chart with 5 main categories: support, visit, shows, locations, and About US](/assets/oldsitemap.png "Old Site Map")
+
+### New Site Map
+
+![An image of the site's new sitemap organized into 4 main categories: about, shows, visit, and support](/assets/sitemap.png "New Site Map")
+
 ## Understanding Users
 
-### Observing Users
+As part of this project we spoke to the owner of the theatre and supporters of the theatre. From these conversations we developed the following personas. 
 
-As part of this project we visited a local senior center to observe how seniors use social media\
-We examined that many people:
+### Supporters of the Theatre
 
-> Mostly use desktop computers
->
-> Are mostly on Facebook
->
-> Spend Time Commenting and liking
+![APersona for a busy user with a family who is looking for something fun to do on her night out.](/assets/persona1.png "Persona: Ariela")
 
-We then asked the attendants at the center if they had observed anything. They stated that some of the visitors seemed afraid to use the computer or wanted to be guided through a session.
+### Explorer
 
-### Interviewing Users
+![Persona for a user named Kieth who is looking for a fun thing to do in his neighborhood and explore the area](/assets/persona2.png "Persona: Kieth")
 
-We conducted 1 group interview with 5 participants and 3 individual interviews\
-The key findings from the interview are as follows:
+### Theatre Staff
 
-> Almost every participant voiced concern about data privacy and the validity of information online.
->
-> 3 participants stated that they would like to join a group to be more social rather than try it on their own.
->
-> Several participants stated that they feel overwhelmed by the number of emails they get from companies.
->
-> Many participants wanted to have fun with their families
-
-From these interviews we developed the following 3 behavioral profiles:
-
-### Open Users
-
-From out interviews we deduced that some users are looking for fun things to do but don't know where to start.
-
-![Persona for a user who wants to find fun things to do](https://liamkiniry.site/assets/images/aging/Personas2.png)
-
-### Informed Users
-
-Some users are primarily concerned with getting information and staying up to date on what's happening in the world and with the people they care about
-
-![Persona for a user who wants to stay connected and up to date](https://liamkiniry.site/assets/images/aging/Personas1.png)
-
-### Active Users
-
-Some of the people we interviewed have a close group of friends they like to do things with and want to find more events that they can do together
-
-![Persona for a user who is looking for things that she can do with an existing group of friends](https://liamkiniry.site/assets/images/aging/Personas3.png)
+![Persona for a user who works at the theatre and needs to make sure the shows are updated](/assets/persona3.png "Persona: Jay")
 
 ## Ideation
 

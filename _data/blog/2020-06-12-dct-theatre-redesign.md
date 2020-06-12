@@ -70,15 +70,21 @@ As part of this project we spoke to the owner of the theatre and supporters of t
 
 ## Ideation
 
-### Low Fidelity Prototyping
+### Wireframing and Prototyping
 
-We began to refine our sketches into low fidelity prototypes of the app that allowed us to think about the built-out of features and play around with the interactions and ask potential users about their first impressions.
+We began to refine our sketches into prototypes of the design that allowed us to think about the built-out of features.
 
-![a GIF of playing with the paper protoype](https://liamkiniry.site/assets/images/aging/paperProt.gif)
+![An image showing a wireframe of all the main pages and sections of the site](/assets/prototype.png "Wireframe")
 
-## Hi-Fi Prototype
+### Branding
 
-After we refined a low fidelity prototype we were satisfied with we moved on to prototyping a high fidelity mock up that could give an idea of what the final product might look like and define its specific features. Our product is a social networking site where users can find communities and events to join as well as create their own groups.
+Part of our project was to redesign the branding of the site. To this end, I designed a logo, illustrations, and a color scheme. I chose red as the main color of the theme and the curved elements of the site to represent the red velvet curtains of the theatre's stage. I also made an illustration to showcase the new brand of the DCT and explain what the theatre offers quickly to users as soon as they land on the page. 
+
+![Iterations of the logo design including the final design showing the letters D C T in red with the Rochester Skyline inside of them](/assets/Logos.png "Logo Iterations")
+
+![An image showing the landing page of the site with the logo curved red shapes in the background and an illustration of the theatre's logo and function.](/assets/sitepreview.png "Theme")
+
+ 
 
 ### Onboarding
 

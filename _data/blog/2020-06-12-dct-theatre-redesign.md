@@ -86,48 +86,42 @@ Part of our project was to redesign the branding of the site. To this end, I des
 
  
 
-### Onboarding
+## The Design
 
-We designed an system that allows users to establish security questions in lieu of providing personal information. Because our users were tired of getting emails and afraid to share personal information this solution could allow a backdoor if they forget their password.
+The final design had a home page, an about page, a support page, a page highlighting all the upcoming shows, and a page about visiting the theatre.
 
-![Image of the site's onboarding screen](https://liamkiniry.site/assets/images/aging/profCreation.png "Image of the site's onboarding screen")
+### The Home Page
 
-### Quick Tutorial
+The home page includes a section with the title and illustration, a section showing upcoming shows, a section explaining what the theatre does, a section soliciting support for the theatre, and a section about planning a visit to the theatre
 
-The overlay shows new users how the system works. This will alleviate some of the stress of learning a new system that our participants expressed. We also would have this in the help section.
+![A screen grab of the home page showing the header with the title and illustration, a section showing upcoming shows, a section explaining what the theatre does, a section soliciting support for the theatre, and a section about planning a visit to the theatre](/assets/DCT-Site.png "site screen grab")
 
-![an image the onboarding tutorial overlay](https://liamkiniry.site/assets/images/aging/gettingStartedOverlay.png)
+### The Shows Page
 
-### Finding Your People
+The shows page displays the shows that are being put on by the theatre and offers information about the kinds of things they do so users can think about events that may come in the future.
 
-One of the main pages allows users to find events to attend based on what they are interested in. The same page exists for communities
+![The shows page displays the shows that are being put on by the theatre and offers information about the kinds of things they do so users can think about events that may come in the future.](/assets/DCT-Shows.png "Shows Page")
 
-![an image the events by tag page](https://liamkiniry.site/assets/images/aging/eventsPageTag.png)
+### The Visit Page
 
-### Creating Groups
+The visit page shows a map with the location of the theatre, upcoming shows, and amenities the theatre offers. 
 
-Users can also create groups through a touch/click-to-edit popup UI. Many of out interviewees expressed that they would like to have groups for just their family as well as local organizations.
+![The visit page shows a map with the location of the theatre, upcoming shows, and amenities the theatre offers.](/assets/DCT-visit.png "Visit Page")
 
-![an image of group creation UI](https://liamkiniry.site/assets/images/aging/groupCreation.png)
+### The About Page
 
-### MicroInteractions
+The about page shows all the information about the theatre in a way that is easy for users to navigate and answer their frequently asked questions. 
 
-When creating groups new members can be dynamically added with one click. These small interactions increase the convenience of using our design.
+![The about page shows all the information about the theatre in a way that is easy for users to navigate and answer their frequently asked questions.](/assets/DCT-about.png "About Page")
 
-![an image showing a group member being added with a click](https://liamkiniry.site/assets/images/aging/directaddgroup.gif)
+### The Member Portal
 
-### Group Pages
+The member portal offers theatre members a location to view and manage their member benefits. The theatre's members wanted a location that made their benefits clear and allowed them to manage their free tickets and renew their package.
 
-Once created, users can see the events that that group is hosting or set to attend and any post that may have been made by group members on that group's unique page.
+![A screenshot showing the login window to access the member portal](/assets/DCT-login.png "member login")
 
-![an image showing the group page with it's own activities and posts](https://liamkiniry.site/assets/images/aging/groupInfo.png)
-
-### MicroInteractions
-
-Users are able to share events with their groups or individuals directly through just a few clicks by sending them in a dynamically opened chat window.
-
-![a GIF showing how events can be send via messenger to groups](https://liamkiniry.site/assets/images/aging/share.gif)
+![A screenshot of the member portal showing the member's contact info, benefits, and their number of gift certificates.](/assets/DCT-MemberPortal.png "member portal")
 
 ## Reflection
 
-This project helped me to understand a lot about the UX design process and how to take an idea and test it out. I think we still would need to test out this product with more seniors and people of all ages to understand if it is useable, learnable, and desirable. Overall I think we made a product with the potential to really help people stay connected and find new and interesting things to do that is approachable for seniors.
+This project allowed me to work with a team of developers and designers to service a local organization. We got to communicate with out client, establish their needs, and develop a work plan. I also learned how to convey designs from prototype to development and make requirements clear. I learned a lot about working with a client and had a lot of fun.
